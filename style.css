@@ -1,0 +1,50 @@
+nav {
+  background-color: #ddd;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  padding-left: 5%;
+  display: flex;
+  justify-content: start;
+}
+
+.navbar-right {
+    display: flex;
+  padding-right: 5%;
+  justify-content: end;
+}
+
+.navbar-button {
+  padding: 10px 20px;
+  background-color: #ddd;
+  color: #333;
+  text-decoration: none;
+  margin-left: 10px;
+  width: 111px;
+}
+
+.navbar-button:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  color: #ffffff; /* Set the color of the heading text */
+  font-size: 36px; /* Adjust the font size as desired */
+}
